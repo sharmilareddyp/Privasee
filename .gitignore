@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets
+.env
+.env.*
+
+# Google credentials
+*-credentials.json
+service-account*.json
+google-credentials.json
+
+# Build output
+client/build/
+server/build/
+
+# Logs and OS
+*.log
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
